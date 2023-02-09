@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thẻ phân chia khu vực có nội dung</title>
+</head>
+
+<body>
+    <!-- 
+        header: xác định nội dung đầu trang 
+        footer: xác định nội dung chân trang
+        section: xác định khu vực có nội dung độc lập, bao gồm các nội dung
+        tương tự nhau
+        article: xác định khu vực có nội dung độc lập, không phụ thuộc vào
+        các nội dung khác thường là các bài viết, blog, commnet
+        aside: xác định khu vực có nội dung phụ bổ sung cho nội dung chính
+        thường là các banner quảng cáo...
+        div: phân chia các khối nội dung nhỏ
+    -->
+    <header>Nội dung đầu trang</header>
+    <nav>
+        Menu điều hướng
+        <ul>
+            <li><a href="http://">Trang chủ</a></li>
+            <li><a href="http://">Giới thiệu</a></li>
+            <li><a href="http://">Khóa học</a></li>
+        </ul>
+    </nav>
+    <article>
+        Nội dung chính gồm các bài viết
+        <section>
+            <h3>Bài viết 1</h3>
+            <p>Nội dung bài viết 1</p>
+            <!-- figure, figcation - Xác định hình ảnh có minh họa -->
+            <figure>
+                <img src="images/casihienho.jpg" alt="Ảnh ca sĩ hiền hồ" width="200px" height="200px">
+                <figcaption>Ca sĩ Hiền Hồ</figcaption>
+            </figure>
+        </section>
+        <section>
+            <h3>Bài viết 2</h3>
+            <p>Nội dung bài viết 2</p>
+        </section>
+    </article>
+    <aside>
+        Nội dung phụ bổ trợ cho nội dung chính
+    </aside>
+    <footer>Nội dung chân trang web</footer>
+</body>
+
+</html>
